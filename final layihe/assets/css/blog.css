@@ -1,0 +1,336 @@
+.lora-uniquifier {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+margin-top: 40px;
+margin-bottom: 0;
+}
+ul li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+
+}
+header .row{
+margin-top: -100px;
+}
+
+.container {
+  margin-left: 130px;
+}
+
+/* header start */
+
+header .container .row div:first-child a img {
+  width: 255px;
+  height: 35px ;
+
+}
+header .container .row div:nth-child(2){
+margin-left: 95px;
+}
+
+header .container .row div:nth-child(2) ul {
+  list-style: none;
+  font-size: medium;
+  padding-top:10px;
+}
+
+header .container .row div:nth-child(2) ul li {
+  margin-right: 50px;
+z-index: 11111111;
+}
+
+
+header .container .row div:nth-child(2) ul li a {
+  text-decoration: none;
+  color: black !important;
+  transition:  ease-in all .4s;
+
+}
+
+
+
+header .container .row div:nth-child(2) ul li:last-child a sup {
+  background-color: #f34f3f;
+  color: #fff;
+  padding: 1px 5px;
+}
+
+header .container .row div:nth-child(2) ul li a i {
+  font-size: 20px;
+
+}
+header .container .ul-hover{
+  padding: 0;
+}
+
+/* header end  */
+/* main start */
+main #info-area .container div:first-child .cards {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 25px;
+}
+main #info-area .container div:first-child .cards .exam {
+  background-color: #fff;
+  box-shadow: 0px 0px 20px 0px rgba(203, 203, 203, 0.2509803922);
+  border-radius: 4px;
+  overflow: hidden;
+  transition: all ease-in 0.2s;
+}
+main #info-area .container div:first-child .cards .exam .price {
+  padding: 10px 30px;
+  padding-top: 15px;
+  border-top: 1px solid #f0f0f5;
+}
+main #info-area .container div:first-child .cards .exam .price del {
+  font-size: 14px;
+  color: #6d6e75;
+  font-weight: 600;
+}
+main #info-area .container div:first-child .cards .exam .price .prc {
+  font-size: 20px;
+  color: #b128ff;
+  font-weight: 600;
+  padding-right: 5px;
+}
+main #info-area .container div:first-child .cards .exam .price .detail {
+  display: inline-block;
+  cursor: pointer;
+}
+main #info-area .container div:first-child .cards .exam .price .detail:hover span {
+  color: #2b4eff;
+}
+main #info-area .container div:first-child .cards .exam .price .detail:hover i {
+  color: #2b4eff;
+  transform: translateX(8px);
+}
+main #info-area .container div:first-child .cards .exam .price .detail > span {
+  bottom: 0;
+  right: 37px;
+  color: #6d6e75;
+  margin-right: 10px;
+  transition: all ease 0.3s;
+  font-size: 18px;
+  font-weight: 500;
+}
+main #info-area .container div:first-child .cards .exam .price .detail i {
+  bottom: 0;
+  right: 30px;
+  font-size: 15px;
+  color: #6d6e75;
+  transition: all ease 0.3s;
+}
+main #info-area .container div:first-child .cards .exam .exam-photo {
+  height: 367px;
+  overflow: hidden;
+  position: relative;
+  /* margin-bottom: 24px; */
+}
+main #info-area .container div:first-child .cards .exam .exam-photo img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 100%;
+  transition: all ease-in-out 0.2s;
+}
+main #info-area .container div:first-child .cards .exam .exam-photo img:hover {
+  transform: scale(1.1);
+}
+main #info-area .container div:first-child .cards .exam .exam-text {
+  padding: 30px;
+}
+main #info-area .container div:first-child .cards .exam .exam-text .date p, main #info-area .container div:first-child .cards .exam .exam-text .date i {
+  color: #6d6e75;
+  font-size: 15px;
+  margin-bottom: 0;
+  margin-right: 5px;
+}
+main #info-area .container div:first-child .cards .exam .exam-text .job a {
+  text-decoration: none;
+  display: inline-block;
+  height: 24px;
+  line-height: 24px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #fff;
+  background: #b128ff;
+  padding: 0 10px;
+  border-radius: 4px;
+}
+main #info-area .container div:first-child .cards .exam .exam-text .card-title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  text-decoration: none;
+  color: #0e1133;
+  transition: all 0.3s ease-out 0s;
+  cursor: pointer;
+}
+main #info-area .container div:first-child .cards .exam .exam-text .card-title:hover {
+  color: #1C00FF;
+}
+main #info-area .container div:first-child .cards .exam .exam-text .teachers-photo {
+  width: 35px;
+  height: 35px;
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+  box-shadow: 0 10px 14px rgba(1, 11, 60, 0.1019607843);
+  overflow: hidden;
+}
+main #info-area .container div:first-child .cards .exam .exam-text h5 {
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 500;
+}
+main #info-area .container div:first-child .cards .exam .exam-text .fa-book {
+  color: #474956;
+}
+main #info-area .container div:first-child .cards .exam .exam-text .fa-star {
+  color: #ff9415;
+  margin-right: 6px;
+  /* font-size: 18px; */
+}
+main #info-area .container div:first-child .cards .exam .exam-text > div:last-child > div:last-child {
+  color: #1C00FF;
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 600;
+}
+main #info-area .container div:first-child .cards .exam .exam-text > div:last-child .icon {
+  width: 16px;
+  height: 16px;
+  background-image: url(../icons/group.svg);
+  margin: 0 8px 0 16px;
+}
+main #info-area .container div:last-child .recent-post div {
+  background-color: #f3f4f8;
+  height: 56px;
+  width: 100%;
+  border: none;
+  outline: none;
+  transition: all ease 0.3s;
+  padding: 0 23px;
+  border-radius: 4px;
+}
+main #info-area .container div:last-child .recent-post div button {
+  width: 25px;
+  height: 56px;
+  border: none !important;
+  background-color: transparent !important;
+}
+main #info-area .container div:last-child .recent-post div input {
+  width: 90%;
+  border: none !important;
+  background-color: transparent !important;
+  border: 1px solid transparent !important;
+}
+main #info-area .container div:last-child .recent-post div input:focus {
+  border: 1px solid transparent !important;
+  background-color: transparent;
+  transition: all ease 0.3s;
+  outline: none;
+}
+main #info-area .container div:last-child .recent-post .bucket {
+  height: 20px;
+  background-image: url(../icons/cart.svg);
+  width: 20px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border: none;
+  background-color: #fff;
+  position: relative;
+}
+main #info-area .container div:last-child .recent-post .bucket::after {
+  position: absolute;
+  content: "2";
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background-color: #2b4eff;
+  color: #fff;
+  top: -10px;
+  right: -10px;
+  font-size: 11px;
+}
+main #info-area .container div:last-child .recent-post .bucket:hover::after {
+  background-color: #0e1133;
+}
+main #info-area .container div:last-child .post-img .sml-img {
+  position: relative;
+}
+main #info-area .container div:last-child .post-img .sml-img span {
+  color: #53545b;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 1;
+  display: inline-block;
+  margin-bottom: 10px;
+  position: absolute;
+  top: 0px;
+  left: 100px;
+}
+main #info-area .container div:last-child .post-img .sml-img h6 {
+  font-weight: 700;
+  position: absolute;
+  left: 100px;
+  top: 30px;
+}
+main #info-area .container div:last-child .category {
+  transition: all ease 0.4s;
+}
+main #info-area .container div:last-child .category ul li {
+  font-size: 16px;
+  font-weight: 500;
+  color: #53545b;
+  padding-left: 20px;
+  margin-top: 20px;
+}
+main #info-area .container div:last-child .category ul li:hover {
+  color: #1C00FF;
+}
+main #info-area .container div:last-child .tags button {
+  transition: all ease-in 0.4s;
+}
+main #info-area .container div:last-child .tags button:hover {
+  background-color: #1C00FF;
+color:#fff;
+}
+
+/* main end */
+
+
+/* footer */
+footer{
+  background-color: #FFF0F5;
+  height: 350px;
+  padding-top: 30px;
+  margin-top: 50px;
+}
+#last-section .row ul {
+  font-size: 14px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+#last-section .row ul a{
+  margin-bottom: 20px;
+  text-decoration:none
+ 
+}
+#last-section .row ul li{
+  margin-top: 20px;
+}
+#last-section .row ul li a{
+  color: gray;
+  transition:  ease-in all .2s;
+  
+ }
+#last-section .row ul li a:hover{
+ color: red;
+ 
+}

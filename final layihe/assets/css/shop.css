@@ -1,0 +1,277 @@
+ul li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+
+}
+header .row{
+    margin-top: -100px;
+    }
+  header .container .row div:first-child a img {
+      width: 255px;
+      height: 35px ;
+    
+    }
+    header .container .row div:nth-child(2){
+    margin-left: 95px;
+    }
+    
+    header .container .row div:nth-child(2) ul {
+      list-style: none;
+      font-size: medium;
+      padding-top:10px;
+    }
+    
+    header .container .row div:nth-child(2) ul li {
+      margin-right: 50px;
+    z-index: 11111111;
+    }
+    
+    
+    header .container .row div:nth-child(2) ul li a {
+      text-decoration: none;
+      color: black !important;
+      transition:  ease-in all .4s;
+    
+    }
+    
+    
+    
+    header .container .row div:nth-child(2) ul li:last-child a sup {
+      background-color: #f34f3f;
+      color: #fff;
+      padding: 1px 5px;
+    }
+    
+    header .container .row div:nth-child(2) ul li a i {
+      font-size: 20px;
+    
+    }
+    header .container .ul-hover{
+      padding: 0;
+    }
+main #cards {
+    background-color: #f3f4f8;
+    margin-top: 150px;
+    }
+    main #cards .container .row {
+      height: 200px;
+      display: flex;
+      justify-content: start;
+      align-items: end;
+      position: relative;
+    }
+    main #cards .container .row h1:first-child {
+      position: absolute;
+      bottom: 50px;
+    }
+    main #cards .container p {
+      font-family: Hind, sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      color: #6d6e75;
+      margin-bottom: 15px;
+      line-height: 26px;
+    }
+    main #cards .container nav .nav-link .active {
+      color: #1C00FF !important;
+    }
+    main #cards .container nav .nav-link {
+      color: #0e1133;
+      font-weight: 600;
+    }
+    main #cards .container nav .nav-link:hover {
+      color: #2b4eff;
+    }
+    main #cards .cards {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 25px;
+    }
+    main #cards .cards .exam {
+      background-color: #fff;
+      box-shadow: 0px 0px 20px 0px rgba(203, 203, 203, 0.2509803922);
+      border-radius: 4px;
+      overflow: hidden;
+      transition: all ease-in 0.2s;
+    }
+    main #cards .cards .exam .price {
+      padding: 10px 30px;
+      padding-top: 15px;
+      border-top: 1px solid #f0f0f5;
+    }
+    main #cards .cards .exam .price del {
+      font-size: 14px;
+      color: #6d6e75;
+      font-weight: 600;
+    }
+    main #cards .cards .exam .price .prc {
+      font-size: 20px;
+      color: #b128ff;
+      font-weight: 600;
+      padding-right: 5px;
+    }
+    main #cards .cards .exam .price .detail {
+      display: inline-block;
+      cursor: pointer;
+    }
+    main #cards .cards .exam .price .detail:hover span {
+      color: #2b4eff;
+    }
+    main #cards .cards .exam .price .detail:hover i {
+      color: #2b4eff;
+      transform: translateX(8px);
+    }
+    main #cards .cards .exam .price .detail > span {
+      bottom: 0;
+      right: 37px;
+      color: #6d6e75;
+      margin-right: 10px;
+      transition: all ease 0.3s;
+      font-size: 18px;
+      font-weight: 500;
+    }
+    main #cards .cards .exam .price .detail i {
+      bottom: 0;
+      right: 30px;
+      font-size: 15px;
+      color: #6d6e75;
+      transition: all ease 0.3s;
+    }
+    main #cards .cards .exam .exam-photo {
+      height: 215px;
+      overflow: hidden;
+      position: relative;
+      /* margin-bottom: 24px; */
+    }
+    main #cards .cards .exam .exam-photo img {
+      -o-object-fit: cover;
+         object-fit: cover;
+      width: 100%;
+      height: 100%;
+      transition: all ease-in-out 0.2s;
+    }
+    main #cards .cards .exam .exam-photo img:hover {
+      transform: scale(1.1);
+    }
+    main #cards .cards .exam .exam-photo .job {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+    }
+    main #cards .cards .exam .exam-photo .job a {
+      text-decoration: none;
+      display: inline-block;
+      height: 24px;
+      line-height: 24px;
+      font-size: 14px;
+      font-weight: 500;
+      color: #fff;
+      background: #b128ff;
+      padding: 0 10px;
+      border-radius: 4px;
+    }
+    main #cards .cards .exam .exam-text {
+      padding: 30px;
+    }
+    main #cards .cards .exam .exam-text .card-title {
+      font-size: 20px;
+      font-weight: 600;
+      margin-bottom: 15px;
+      text-decoration: none;
+      color: #0e1133;
+      transition: all 0.3s ease-out 0s;
+      cursor: pointer;
+    }
+    main #cards .cards .exam .exam-text .card-title:hover {
+      color: #1C00FF;
+    }
+    main #cards .cards .exam .exam-text .teachers-photo {
+      width: 35px;
+      height: 35px;
+      border: 2px solid #ffffff;
+      border-radius: 50%;
+      box-shadow: 0 10px 14px rgba(1, 11, 60, 0.1019607843);
+      overflow: hidden;
+    }
+    main #cards .cards .exam .exam-text h5 {
+      font-size: 24px;
+      line-height: 36px;
+      font-weight: 500;
+    }
+    main #cards .cards .exam .exam-text .fa-book {
+      color: #474956;
+    }
+    main #cards .cards .exam .exam-text .fa-star {
+      color: #ff9415;
+      margin-right: 6px;
+      /* font-size: 18px; */
+    }
+    main #cards .cards .exam .exam-text > div:last-child > div:last-child {
+      color: #1C00FF;
+      font-size: 24px;
+      line-height: 36px;
+      font-weight: 600;
+    }
+    main #cards .cards .exam .exam-text > div:last-child .icon {
+      width: 16px;
+      height: 16px;
+      background-image: url(../icons/group.svg);
+      margin: 0 8px 0 16px;
+    }
+    main #cards .cards .exam .exam-photo{
+      width: 420px;
+      height: 300px;
+
+    }
+   /* LAST START */
+   footer{
+    background-color: #FFF0F5;
+    height: 350px;
+    padding-top: 30px;
+    margin-top: 50px;
+  }
+  #last-section .row ul {
+    font-size: 14px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
+  }
+  #last-section .row ul a{
+    margin-bottom: 20px;
+    text-decoration:none
+   
+  }
+  #last-section .row ul li{
+    margin-top: 20px;
+  }
+  #last-section .row ul li a{
+    color: gray;
+    transition:  ease-in all .2s;
+    
+   }
+  #last-section .row ul li a:hover{
+   color: red;
+   
+  }
+  ul li a {
+    color: #000;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   /* LAST END */
+  /* main end */
+  
+  
+  
+  
+  
